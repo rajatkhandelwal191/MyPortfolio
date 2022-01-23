@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Source+Code+Pro:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    
+}
+
+.sidebar{
+
+    background-color: rgb(218, 50, 50);
+    font-family: 'Fira Sans', sans-serif;
+    width: 245px;
+    height: 100vh;
+    
+
+}
+
+.sidebar nav{
+    
+    padding: 45px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    /* text-decoration: none; */
+    font-size: 27px;
+    padding: 28px 0;
+
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    background-color: rgb(237, 245, 245);
+    width: 90vw;
+}
+
+.infoContainer{
+    /* background-color: blue; */
+    width: 66vw;
+    height: 69vh;
+    margin: 14vh auto;  /*auto is used to center the box*/
+    display: flex;
+    justify-content:space-around;
+
+}
+
+.devInfo{
+    flex-direction: column;
+    margin-top: 56px ;
+    justify-content: center;
+    font-family: 'Source Code Pro', monospace;
+    color: rgb(131, 63, 39);
+}
+
+.infoContainer img{
+height: 69vh;
+width: 20vw;
+}
+
+.Hi{
+font-size: 58px;
+}
+
+.name{
+font-size: 46px;
+font-family: 'Fira Sans', sans-serif;
+font-weight: bold;
+color: black;
+
+}
+
+.about{
+font-size: 25px;
+}
+
+.moreabout{
+font-size: 17px;
+font-weight: 600;
+margin-top: 1rem;
+font-family: 'Source Code Pro', monospace;
+
+}
+
+.buttons{
+margin-top: 33px;
+}
+
+.buttons button{
+    /* text-decoration: none; */
+    padding: 10px 14px;
+    margin: 0 4px;
+    font-size: 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: brown;
+    cursor: pointer;
+
+}
+
+.buttons :hover{   /* hover not happening*/
+    color: aqua;    
+    background-color: black;
+}
+
+
+.contactForm{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 3rem;
+
+
+}
+
+.contactForm form{
+    padding-top: 2rem;
+}
+
+.contactForm h1 {
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+.contactForm form div{
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    padding-top: 20px;
+}
+
+.contactForm form div input{
+    border-radius: 25px;
+    /* padding-top: 4px ; */
+    margin-top: 5px;
+}
+
+
+#emailHelp{
+    /* margin-top: 5px; */
+    margin: 0 0 0 8px;
+    font-size: 0.7rem;
+    color: #177a7a
+}
+
+#form-check{
+    flex-direction: row;
+}
+
+#form-check-input{    
+    margin-top: 2px;
+    margin-right: 8px;
+    /* padding-top: 4px; */
+}
+
